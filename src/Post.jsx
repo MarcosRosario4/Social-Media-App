@@ -11,6 +11,9 @@ return(
 <p>Likes: 30</p>
 <p>Comments:</p>
 <Comment />
+<Comment />
+<Comment />
+
 </div>
 
 )
