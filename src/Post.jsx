@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Comment from './Comment';
 
 function Post(){
 
-    let likes = 30;
+    const [likes, setLikes] = useState(0);
 
     function handleLike(){
-        likes = likes + 1;
+        setLikes(likes + 1);
     }
 
   return(
