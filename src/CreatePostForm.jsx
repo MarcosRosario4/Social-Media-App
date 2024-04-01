@@ -12,15 +12,15 @@ function CreatePostForm({ onSubmit }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="create-post-form" onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Title"
+        placeholder="What's on your mind?"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
       <textarea
-        placeholder="Content"
+        placeholder="Comment"
         value={content}
         onChange={(e) => setContent(e.target.value)}
       ></textarea>

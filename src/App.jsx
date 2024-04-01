@@ -15,6 +15,7 @@ function App(){
   
   <div>
   <h1>Fakebook!</h1>
+  <h2>Post a what's on your mind and comment on it!</h2>
   <CreatePostForm onSubmit={handleCreatePost} />
   <Feed posts={posts} />
   {/* CreatePostForm */}
