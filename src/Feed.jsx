@@ -1,12 +1,12 @@
 import React from 'react';
+import Post from './Post';
 
 function Feed({ posts }) {
   return (
     <div>
       {posts.map((post, index) => (
-        <div key={index}>
-          <h3>{post.title}</h3>
-          <p>{post.content}</p>
+        <div key={index} className="post">
+        <Post key={index} title={post.title} content={post.content} />
         </div>
       ))}
     </div>

@@ -23,8 +23,8 @@ function CreatePostForm({ onSubmit }) {
         placeholder="Content"
         value={content}
         onChange={(e) => setContent(e.target.value)}
-      />
-      <button type="submit">Post</button>
+      ></textarea>
+      <button type="submit">Create Post</button>
     </form>
   );
 }
